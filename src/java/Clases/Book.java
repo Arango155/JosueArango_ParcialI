@@ -1,29 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Clases;
 
-/**
- *
- * @author jdara
- */
-public class Libro {
-    
+public class Book {
     private String code;
     private String name;
     private String paste;
     private String editorial;
     private String date;
+  
     
-    public Libro (String code, String name, String paste, String editorial, String date){
-    
-        this.code=code;
-        this.name=name;
-        this.paste=paste;
-        this.editorial=editorial;
+    public Book(String codigo, String nombre, String correo, String direccion, String date){
+        this.code=codigo;
+        this.name=nombre;
+        this.paste=correo;
+        this.editorial=direccion;     
         this.date=date;
+    }
     
+    public Book (){
+        this.name="Alumno de ejemplo";
     }
 
     public String getCode() {
@@ -57,15 +52,13 @@ public class Libro {
     public void setEditorial(String editorial) {
         this.editorial = editorial;
     }
-
-    public String getDate() {
+    
+        public String getDate() {
         return date;
     }
 
     public void setDate(String date) {
         this.date = date;
     }
-    
-    
     
 }

@@ -8,7 +8,7 @@ package Clases;
  *
  * @author jdara
  */
-public class Libros {
+public class Libro {
     
     private String code;
     private String name;
@@ -16,7 +16,7 @@ public class Libros {
     private String editorial;
     private String date;
     
-    public Libros (String code, String name, String paste, String editorial, String date){
+    public Libro (String code, String name, String paste, String editorial, String date){
     
         this.code=code;
         this.name=name;
